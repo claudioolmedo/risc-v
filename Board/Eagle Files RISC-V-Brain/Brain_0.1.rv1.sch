@@ -1254,7 +1254,7 @@ naming: grid - package width</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R" urn="urn:adsk.eagle:component:37757695/3" prefix="R" uservalue="yes" library_version="33" library_locally_modified="yes">
+<deviceset name="R" urn="urn:adsk.eagle:component:37757695/3" locally_modified="yes" prefix="R" uservalue="yes" library_version="71" library_locally_modified="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
@@ -1270,7 +1270,6 @@ naming: grid - package width</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="LCSC_PART" value="" constant="no"/>
 <attribute name="POPULARITY" value="34" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
@@ -1673,13 +1672,13 @@ Source: www.kingbright.com</description>
 <attribute name="PRICE-100" value="0.0006"/>
 <attribute name="PRICE-1000" value="0.0005"/>
 </part>
-<part name="PWD" library="CH582M" library_urn="urn:adsk.eagle:library:36586898" deviceset="LED" device="" package3d_urn="urn:adsk.eagle:package:38116458/5">
+<part name="PWD" library="CH582M" library_urn="urn:adsk.eagle:library:36586898" deviceset="LED" device="" package3d_urn="urn:adsk.eagle:package:38116458/5" value="LED">
 <attribute name="LCSC" value="C434447"/>
 <attribute name="PRICE-1" value="0.0140"/>
 <attribute name="PRICE-100" value="0.0140"/>
 <attribute name="PRICE-1000" value="0.0111"/>
 </part>
-<part name="LED" library="CH582M" library_urn="urn:adsk.eagle:library:36586898" deviceset="LED" device="" package3d_urn="urn:adsk.eagle:package:38116458/5">
+<part name="LED" library="CH582M" library_urn="urn:adsk.eagle:library:36586898" deviceset="LED" device="" package3d_urn="urn:adsk.eagle:package:38116458/5" value="LED">
 <attribute name="LCSC" value="C434447"/>
 <attribute name="PRICE-1" value="0.0140"/>
 <attribute name="PRICE-100" value="0.0140"/>
@@ -1705,7 +1704,6 @@ Source: www.kingbright.com</description>
 </pinmapping>
 </spice>
 <attribute name="LCSC" value="C25744"/>
-<attribute name="LCSC_PART" value="C25744"/>
 <attribute name="PRICE-1" value="0.0006"/>
 <attribute name="PRICE-100" value="0.0006"/>
 <attribute name="PRICE-1000" value="0.0004"/>
